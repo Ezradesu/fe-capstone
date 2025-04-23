@@ -6,7 +6,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Loader2, Copy, Trash2 } from "lucide-react";
-
+import { HistoryItem } from "@/lib/types";
+import { generateSummary } from "@/lib/summarize";
 import { TeamSection } from "@/components/team-section";
 
 export default function Home() {
